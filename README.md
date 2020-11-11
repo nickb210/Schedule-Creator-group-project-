@@ -19,7 +19,7 @@ If you choose to create a new schedule, you will be taken to the event creation 
 
 After you have created an event, you can view your schedule by clicking the view schedule button on the main page. This will take you to a weekly view of your schedule populated by your events. Additionally, by clicking on an event in your schedule you can view a more in-depth description of the chosen event. If you'd like a fresh start for your schedule, by clicking the "Clear Schedule" button you can completely wipe your current schedule.
 
-## Screen Shots
+## Screenshots
 
 <img width="250" height="250" alt="schedule-builder-home" src="https://user-images.githubusercontent.com/33010783/98851384-cacbc180-241b-11eb-9e8d-674f7d725b12.png">
 <img width="250" height="250" alt="schedule-builder-createNewEvent" src="https://user-images.githubusercontent.com/33010783/98852264-0b780a80-241d-11eb-9802-427c7b80ba56.png">
