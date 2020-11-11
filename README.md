@@ -1,6 +1,6 @@
 # Information
 
-This is a team project I made in my Application Programming class (CS 3443) at UTSA. Everything below this line is what we submitted for the assignment. 
+This is a team project I made in my Application Programming class (CS 3443) at UTSA. Everything below this line is what my team and I submitted for our assignment. 
 
 # Schedule Creator
 
