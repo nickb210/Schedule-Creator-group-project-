@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" style="-fx-background-color: #d6cece;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.ScheduleController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="42.0" layoutX="151.0" layoutY="137.0" stroke="#d6cece" strokeType="INSIDE" width="91.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="42.0" layoutX="46.0" layoutY="137.0" stroke="#d6cece" strokeType="INSIDE" width="91.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="491.0" layoutX="4.0" layoutY="186.0" stroke="BLACK" strokeType="INSIDE" width="792.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="102.0" layoutX="223.0" layoutY="27.0" stroke="#d6cece" strokeType="INSIDE" width="354.0" />
+      <Label layoutX="299.0" layoutY="52.0" text="Weekly View" textFill="WHITE">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <GridPane gridLinesVisible="true" layoutX="39.0" layoutY="196.0" prefHeight="465.0" prefWidth="736.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button fx:id="tues6AM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="1" />
+            <Button fx:id="wed6AM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="2" />
+            <Button fx:id="thur6AM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="3" />
+            <Button fx:id="fri6AM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="4" />
+            <Button fx:id="sat6AM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="5" />
+            <Button fx:id="sun6AM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="6" />
+            <Button fx:id="mon7AM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.rowIndex="1" />
+            <Button fx:id="tues7AM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button fx:id="mon6AM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" />
+            <Button fx:id="wed7AM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Button fx:id="thur7AM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <Button fx:id="fri7AM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+            <Button fx:id="sat7AM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+            <Button fx:id="sun7AM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+            <Button fx:id="mon8AM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.rowIndex="2" />
+            <Button fx:id="tues8AM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button fx:id="wed8AM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Button fx:id="thur8AM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <Button fx:id="fri8AM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+            <Button fx:id="sat8AM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+            <Button fx:id="sun8AM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+            <Button fx:id="mon9AM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.rowIndex="3" />
+            <Button fx:id="tues9AM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Button fx:id="wed9AM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Button fx:id="thur9AM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <Button fx:id="fri9AM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+            <Button fx:id="sat9AM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+            <Button fx:id="sun9AM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+            <Button fx:id="mon10AM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.rowIndex="4" />
+            <Button fx:id="tues10AM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Button fx:id="wed10AM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <Button fx:id="thur10AM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+            <Button fx:id="fri10AM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+            <Button fx:id="sat10AM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+            <Button fx:id="sun10AM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+            <Button fx:id="mon11AM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.rowIndex="5" />
+            <Button fx:id="tues11AM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <Button fx:id="wed11AM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+            <Button fx:id="thur11AM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+            <Button fx:id="fri11AM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+            <Button fx:id="sat11AM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+            <Button fx:id="sun11AM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+            <Button fx:id="mon12PM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.rowIndex="6" />
+            <Button fx:id="tues12PM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+            <Button fx:id="wed12PM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+            <Button fx:id="thur12PM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+            <Button fx:id="fri12PM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+            <Button fx:id="sat12PM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+            <Button fx:id="sun12PM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+            <Button fx:id="mon1PM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.rowIndex="7" />
+            <Button fx:id="tues1PM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+            <Button fx:id="wed1PM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+            <Button fx:id="thur1PM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+            <Button fx:id="fri1PM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+            <Button fx:id="sat1PM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+            <Button fx:id="sun1PM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="6" GridPane.rowIndex="7" />
+            <Button fx:id="mon2PM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.rowIndex="8" />
+            <Button fx:id="tues2PM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+            <Button fx:id="wed2PM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="2" GridPane.rowIndex="8" />
+            <Button fx:id="thur2PM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="3" GridPane.rowIndex="8" />
+            <Button fx:id="fri2PM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="4" GridPane.rowIndex="8" />
+            <Button fx:id="sat2PM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="5" GridPane.rowIndex="8" />
+            <Button fx:id="sun2PM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="6" GridPane.rowIndex="8" />
+            <Button fx:id="mon3PM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.rowIndex="9" />
+            <Button fx:id="tues3PM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+            <Button fx:id="wed3PM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="2" GridPane.rowIndex="9" />
+            <Button fx:id="thur3PM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="3" GridPane.rowIndex="9" />
+            <Button fx:id="fri3PM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="4" GridPane.rowIndex="9" />
+            <Button fx:id="sat3PM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="5" GridPane.rowIndex="9" />
+            <Button fx:id="sun3PM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="6" GridPane.rowIndex="9" />
+            <Button fx:id="mon4PM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.rowIndex="10" />
+            <Button fx:id="tues4PM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+            <Button fx:id="wed4PM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="2" GridPane.rowIndex="10" />
+            <Button fx:id="thur4PM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="3" GridPane.rowIndex="10" />
+            <Button fx:id="fri4PM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="4" GridPane.rowIndex="10" />
+            <Button fx:id="sat4PM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="5" GridPane.rowIndex="10" />
+            <Button fx:id="sun4PM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="6" GridPane.rowIndex="10" />
+            <Button fx:id="mon5PM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.rowIndex="11" />
+            <Button fx:id="tues5PM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="1" GridPane.rowIndex="11" />
+            <Button fx:id="wed5PM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="2" GridPane.rowIndex="11" />
+            <Button fx:id="thur5PM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="3" GridPane.rowIndex="11" />
+            <Button fx:id="fri5PM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="4" GridPane.rowIndex="11" />
+            <Button fx:id="sat5PM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="5" GridPane.rowIndex="11" />
+            <Button fx:id="sun5PM" disable="true" mnemonicParsing="false" onAction="#handle" prefHeight="42.0" prefWidth="115.0" style="-fx-background-color: ffffff;" GridPane.columnIndex="6" GridPane.rowIndex="11" />
+         </children>
+      </GridPane>
+      <Button fx:id="newE" layoutX="255.0" layoutY="697.0" mnemonicParsing="false" onAction="#newEvent" prefHeight="72.0" prefWidth="290.0" style="-fx-background-color: #1e90ff" text="Create new event" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="home" layoutX="664.0" layoutY="27.0" mnemonicParsing="false" onAction="#home" prefHeight="27.0" prefWidth="91.0" style="-fx-background-color: #1e90ff" text="Home" textFill="WHITE" />
+      <Label alignment="CENTER" layoutX="45.0" layoutY="144.0" prefHeight="27.0" prefWidth="91.0" text="Monday" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="149.0" layoutY="145.0" prefHeight="27.0" prefWidth="91.0" text="Tuesday" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="42.0" layoutX="256.0" layoutY="137.0" stroke="#d6cece" strokeType="INSIDE" width="91.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="42.0" layoutX="360.0" layoutY="137.0" stroke="#d6cece" strokeType="INSIDE" width="91.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="42.0" layoutX="465.0" layoutY="137.0" stroke="#d6cece" strokeType="INSIDE" width="91.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="42.0" layoutX="569.0" layoutY="137.0" stroke="#d6cece" strokeType="INSIDE" width="91.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="42.0" layoutX="675.0" layoutY="137.0" stroke="#d6cece" strokeType="INSIDE" width="91.0" />
+      <Label alignment="CENTER" layoutX="255.0" layoutY="145.0" prefHeight="27.0" prefWidth="91.0" text="Wednesday" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="361.0" layoutY="145.0" prefHeight="27.0" prefWidth="91.0" text="Thursday" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="465.0" layoutY="144.0" prefHeight="27.0" prefWidth="91.0" text="Friday" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="568.0" layoutY="145.0" prefHeight="27.0" prefWidth="91.0" text="Saturday" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="673.0" layoutY="144.0" prefHeight="27.0" prefWidth="91.0" text="Sunday" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="12.0" layoutY="188.0" text="6am" />
+      <Label layoutX="12.0" layoutY="227.0" text="7am" />
+      <Label layoutX="12.0" layoutY="265.0" text="8am" />
+      <Label layoutX="12.0" layoutY="304.0" text="9am" />
+      <Label layoutX="8.0" layoutY="343.0" text="10am" />
+      <Label layoutX="8.0" layoutY="384.0" text="11am" />
+      <Label layoutX="8.0" layoutY="421.0" text="12pm" />
+      <Label layoutX="13.0" layoutY="460.0" text="1pm" />
+      <Label layoutX="13.0" layoutY="499.0" text="2pm" />
+      <Label layoutX="13.0" layoutY="538.0" text="3pm" />
+      <Label layoutX="13.0" layoutY="576.0" text="4pm" />
+      <Label layoutX="13.0" layoutY="614.0" text="5pm" />
+      <Label layoutX="13.0" layoutY="652.0" text="6pm" />
+      <Button fx:id="clearButton" layoutX="644.0" layoutY="78.0" mnemonicParsing="false" onAction="#clearSchedule" prefHeight="31.0" prefWidth="131.0" style="-fx-background-color: #1e90ff;" text="Clear Schedule" textFill="WHITE" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" style="-fx-background-color: #d6cece;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.MainController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="135.0" layoutX="139.0" layoutY="47.0" stroke="#d6cece" strokeType="INSIDE" width="523.0" />
+      <Label layoutX="162.0" layoutY="88.0" text="Welcome to Schedule Builder!" textFill="WHITE">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Button layoutX="290.0" layoutY="291.0" mnemonicParsing="false" onAction="#handle" prefHeight="80.0" prefWidth="220.0" style="-fx-background-color: #1e90ff" text="Create new Event" textFill="WHITE" />
+      <Button layoutX="291.0" layoutY="514.0" mnemonicParsing="false" onAction="#viewEvent" prefHeight="80.0" prefWidth="220.0" style="-fx-background-color: #1e90ff" text="View Schedule" textFill="WHITE" />
+      <Button layoutX="290.0" layoutY="400.0" mnemonicParsing="false" onAction="#bloadSchedule" prefHeight="80.0" prefWidth="220.0" style="-fx-background-color: #1e90ff" text="Load Schedule" textFill="WHITE" />
+      <Label fx:id="loadStatus" layoutX="386.0" layoutY="663.0" textFill="RED" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" style="-fx-background-color: d6cece;" styleClass="BUTTON" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.EventController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="79.0" layoutX="265.0" layoutY="43.0" stroke="#d6cece" strokeType="INSIDE" width="271.0" />
+      <Label layoutX="299.0" layoutY="65.0" text="Create a new event" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="name" layoutX="78.0" layoutY="169.0" />
+      <Text layoutX="132.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" />
+      <Text layoutX="627.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Location" />
+      <TextField fx:id="eventLocate" layoutX="570.0" layoutY="169.0" onAction="#createEvent" />
+      <Text layoutX="370.0" layoutY="290.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Details" wrappingWidth="60.09521484375" />
+      <TextField fx:id="details" alignment="TOP_LEFT" layoutX="80.0" layoutY="303.0" prefHeight="167.0" prefWidth="640.0" />
+      <Button fx:id="cancel" layoutX="706.0" layoutY="28.0" mnemonicParsing="false" onAction="#handle" style="-fx-background-color: #1e90ff;" text="Cancel" textFill="WHITE" />
+      <Text layoutX="551.0" layoutY="553.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Repeat Event" />
+      <Text layoutX="481.0" layoutY="577.0" strokeType="OUTSIDE" strokeWidth="0.0" text="M" />
+      <Text layoutX="516.0" layoutY="577.0" strokeType="OUTSIDE" strokeWidth="0.0" text="T" />
+      <CheckBox fx:id="mon" layoutX="479.0" layoutY="592.0" mnemonicParsing="false" />
+      <CheckBox fx:id="tue" layoutX="512.0" layoutY="592.0" mnemonicParsing="false" />
+      <Text layoutX="114.0" layoutY="554.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select Start and End Time" />
+      <CheckBox fx:id="wed" layoutX="545.0" layoutY="592.0" mnemonicParsing="false" />
+      <Text layoutX="547.0" layoutY="577.0" strokeType="OUTSIDE" strokeWidth="0.0" text="W" />
+      <Text layoutX="583.0" layoutY="577.0" strokeType="OUTSIDE" strokeWidth="0.0" text="T" />
+      <CheckBox fx:id="thu" layoutX="578.0" layoutY="592.0" mnemonicParsing="false" />
+      <Text layoutX="616.0" layoutY="577.0" strokeType="OUTSIDE" strokeWidth="0.0" text="F" />
+      <CheckBox fx:id="fri" layoutX="611.0" layoutY="592.0" mnemonicParsing="false" />
+      <CheckBox fx:id="sat" layoutX="644.0" layoutY="592.0" mnemonicParsing="false" />
+      <Text layoutX="649.0" layoutY="578.0" strokeType="OUTSIDE" strokeWidth="0.0" text="S" />
+      <CheckBox fx:id="sun" layoutX="677.0" layoutY="592.0" mnemonicParsing="false" />
+      <Text layoutX="680.0" layoutY="577.0" strokeType="OUTSIDE" strokeWidth="0.0" text="S" />
+      <ColorPicker fx:id="cp" layoutX="538.0" layoutY="657.0" prefHeight="25.0" prefWidth="105.0" style="-fx-background-color: #1e90ff;" />
+      <CheckBox fx:id="elevenAM" layoutX="254.0" layoutY="592.0" mnemonicParsing="false" />
+      <CheckBox fx:id="tenAM" layoutX="221.0" layoutY="592.0" mnemonicParsing="false" />
+      <CheckBox fx:id="nineAM" layoutX="188.0" layoutY="592.0" mnemonicParsing="false" />
+      <CheckBox fx:id="eightAM" layoutX="155.0" layoutY="592.0" mnemonicParsing="false" />
+      <CheckBox fx:id="sevenAM" layoutX="122.0" layoutY="592.0" mnemonicParsing="false" />
+      <CheckBox fx:id="sixAM" layoutX="89.0" layoutY="592.0" mnemonicParsing="false" />
+      <CheckBox fx:id="twelvePM" layoutX="89.0" layoutY="622.0" mnemonicParsing="false" />
+      <CheckBox fx:id="onePM" layoutX="122.0" layoutY="621.0" mnemonicParsing="false" />
+      <CheckBox fx:id="twoPM" layoutX="155.0" layoutY="620.0" mnemonicParsing="false" />
+      <CheckBox fx:id="threePM" layoutX="188.0" layoutY="620.0" mnemonicParsing="false" />
+      <CheckBox fx:id="fourPM" layoutX="221.0" layoutY="620.0" mnemonicParsing="false" />
+      <CheckBox fx:id="fivePM" layoutX="254.0" layoutY="620.0" mnemonicParsing="false" />
+      <Text layoutX="256.0" layoutY="577.0" strokeType="OUTSIDE" strokeWidth="0.0" text="11" />
+      <Text layoutX="223.0" layoutY="577.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10" />
+      <Text layoutX="193.0" layoutY="577.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9" />
+      <Text layoutX="159.0" layoutY="577.0" strokeType="OUTSIDE" strokeWidth="0.0" text="8" />
+      <Text layoutX="126.0" layoutY="577.0" strokeType="OUTSIDE" strokeWidth="0.0" text="7" />
+      <Text layoutX="89.0" layoutY="578.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" 6" />
+      <Text layoutX="57.0" layoutY="579.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AM" />
+      <Text layoutX="58.0" layoutY="669.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PM" />
+      <Text layoutX="90.0" layoutY="669.0" strokeType="OUTSIDE" strokeWidth="0.0" text="12" />
+      <Text layoutX="127.0" layoutY="668.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1" />
+      <Text layoutX="160.0" layoutY="668.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2" />
+      <Text layoutX="194.0" layoutY="668.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3" />
+      <Text layoutX="224.0" layoutY="668.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4" />
+      <Text layoutX="257.0" layoutY="668.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5" />
+      <CheckBox fx:id="sixPM" layoutX="287.0" layoutY="620.0" mnemonicParsing="false" />
+      <Text layoutX="292.0" layoutY="668.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" />
+      <Button fx:id="create" layoutX="286.0" layoutY="716.0" mnemonicParsing="false" onAction="#createEvent" style="-fx-background-color: #1e90ff;" text="Create Event" textFill="WHITE" />
+      <Button fx:id="weekView" layoutX="429.0" layoutY="716.0" mnemonicParsing="false" onAction="#weeklyView" style="-fx-background-color: #1e90ff;" text="View Schedule" textFill="WHITE" />
+      <Label fx:id="errorLabel" layoutX="383.0" layoutY="749.0" textFill="RED">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
